@@ -79,19 +79,19 @@ export async function createReturns() {
 
 		const lookupTablesMain = lookupTableProvider.computeIdealLookupTablesForAddresses(addressesMain);
 
-		const message = new TransactionMessage({
-			payerKey: wallet.publicKey,
-			recentBlockhash: blockhash,
-			instructions: instructionsForChunk,
-		}).compileToV0Message(lookupTablesMain);
+		// const message = new TransactionMessage({
+		// 	payerKey: wallet.publicKey,
+		// 	recentBlockhash: blockhash,
+		// 	instructions: instructionsForChunk,
+		// }).compileToV0Message(lookupTablesMain);
 
-		const versionedTx = new VersionedTransaction(message);
+		// const versionedTx = new VersionedTransaction(message);
 
-		const serializedMsg = versionedTx.serialize();
-		console.log("Txn size:", serializedMsg.length);
-		if (serializedMsg.length > 1232) {
-			console.log("tx too big");
-		}
+		// const serializedMsg = versionedTx.serialize();
+		// console.log("Txn size:", serializedMsg.length);
+		// if (serializedMsg.length > 1232) {
+		// 	console.log("tx too big");
+		// }
 
 		console.log(
 			"Signing transaction with chunk signers",
