@@ -63,6 +63,8 @@ For detailed guidance and technical assistance, feel free to reach out to me dir
 
 ### Contact info
 
-LinkedIn: [@Ljubomir Igic](https://www.linkedin.com/in/ljubomir-igic-6a9615340)
+LinkedIn: [@Dias Ishbulatov](https://www.linkedin.com/in/dias-ishbulatov/)
 
-Telegram: [@Ljubomir Igic](https://t.me/@ljubomir_igic)
+Telegram: [@Dias](https://t.me/@bitman09)
+
+X: [@DiasIbt101](https://x.com/DiasIbt101)
